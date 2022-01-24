@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: teal;
+}
+.f-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#app{
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    height: 270px;
+    flex-direction: column;
+    position: relative;
+}
+.button{
+    position: absolute;
+    bottom: 15px;
+    margin-top: 20px;
+}
